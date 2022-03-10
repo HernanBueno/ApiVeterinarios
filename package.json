@@ -1,0 +1,23 @@
+{
+    "name": "proyectoexpress-node",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./index.js",
+        "dev": "nodemon ./index.js"
+    },
+    "author": "Hernygoo",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.2",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.1.8"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
